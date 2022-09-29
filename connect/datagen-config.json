@@ -1,0 +1,11 @@
+{
+    "name" : "DatagenSource_Clickstream",
+    "connector.class": "DatagenSource",
+    "kafka.auth.mode": "KAFKA_API_KEY",
+    "kafka.api.key": "XXXXXXXXXX",
+    "kafka.api.secret" : "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+    "kafka.topic" : "datagen-clickstream",
+    "output.data.format" : "JSON",
+    "quickstart" : "CLICKSTREAM",
+    "tasks.max" : "1"
+}
